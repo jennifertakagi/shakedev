@@ -1,5 +1,11 @@
+import ExperienceBar from './components/ExperienceBar';
+
 function App() {
-  return <h1>Shake Dev</h1>;
+  return (
+    <div className="container">
+      <ExperienceBar />
+    </div>
+  );
 }
 
 export default App;
