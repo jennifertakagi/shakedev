@@ -2,5 +2,3 @@
 /*.js
 node_modules
 build
-/src/react-app-env.d.ts
-/src/reportWebVitals.tsx
