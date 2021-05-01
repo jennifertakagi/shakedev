@@ -1,85 +1,190 @@
-<p align="left">
-   <img src="docs/logo.png" width="150"/>
+<!-- Inspired by https://github.com/jennifertakagi/shakedev -->
+
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/jennifertakagi/shakedev">
+    <img src="docs/logo.png" alt="Logo" width="100">
+  </a>
+
+  <h3 align="center">Shakedev</h3>
+
+  <p align="center">
+    Use Pomodoro Technique and shake your body on your day-to-day!
+    <br />
+    <a href="https://github.com/jennifertakagi/shakedev"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://shakedev.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/jennifertakagi/shakedev/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/jennifertakagi/shakedev/issues">Request Feature</a>
+  </p>
 </p>
 
 
-# Shake Dev
 
-> Use Pomodoro Technique and shake your body on your day-to-day
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-[![Author](https://img.shields.io/badge/author-jennifertakagi-ff9000?style=flat-square)](https://github.com/jennifertakagi)
-[![Languages](https://img.shields.io/github/languages/count/jennifertakagi/shakedev?color=%23ff9000&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/jennifertakagi/shakedev?color=ff9000&style=flat-square)](https://github.com/jennifertakagi/shakedev/stargazers)
-[![Forks](https://img.shields.io/github/forks/jennifertakagi/shakedev?color=%23ff9000&style=flat-square)](https://github.com/jennifertakagi/shakedev/network/members)
-[![Contributors](https://img.shields.io/github/contributors/jennifertakagi/shakedev?color=ff9000&style=flat-square)](https://github.com/jennifertakagi/shakedev/graphs/contributors)
 
----
 
-# :pushpin: Table of Contents
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-* [Features](#rocket-features)
-* [UI Documentation](#framed_picture-ui-documentation)
-* [Installation](#construction_worker-installation)
-* [Getting Started](#runner-getting-started)
-* [FAQ](#postbox-faq)
-* [Found a bug? Missing a specific feature?](#bug-issues)
-* [Contributing](#tada-contributing)
-* [License](#closed_book-license)
+[![Product Name Screen Shot][product-screenshot]](#)
 
-<br />
+A application to use the Pomodoro Technique and shake your body on your day-to-day.
 
-# :rocket: Features
-
+Features:
 * Start a focus timer
 * On the end of this time, you will be challenged to shake your body on an exercise
 * Complete an exercise and gain some points
 * Level up \0
 
-# :framed_picture: UI Documentation
-This project has a UI Documentation of reusable components, allowing to test them individually.
+
+
+### Built With
+
+* [React JS](https://pt-br.reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Next JS](https://nextjs.org/)
+* [JS Cookie](https://github.com/js-cookie/js-cookie)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+### Prerequisites
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+* yarn
+  ```sh
+  npm install --global yarn
+  ```
+
+
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/jennifertakagi/shakedev.git
+   ```
+2. Install packages
+   ```sh
+   yarn | npm install
+   ```
+3. Run the local environment
+   ```sh
+   yarn dev | npm run dev
+   ```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
 
 <p align="left">
    <img src="docs/shakedev.gif" />
 </p>
 
-# :construction_worker: Installation
-
-**You need to install [NPM](https://www.npmjs.com/) or [YARN](https://yarnpkg.com/) first, then in order to clone the project via HTTPS, run this command:**
-
-```git clone https://github.com/jennifertakagi/shakedev.git```
-
-SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command:
-
-```git clone git@github.com:jennifertakagi/shakedev.git```
-
-**Install dependencies**
-
-You need to install the dependencies of the project, so **run the above command on root folder**:
-
-```yarn | npm i```
-
-# :runner: Getting Started
-
-Run the following command to start the application in a development environment:
-
-```yarn dev```
 
 
-# :postbox: Faq
+<!-- ROADMAP -->
+## Roadmap
 
-**Question:** What are the technologies used in this project?
+See the [open issues](https://github.com/jennifertakagi/shakedev/issues) for a list of proposed features (and known issues).
 
-**Answer:** The technologies used in this project are [React JS](https://pt-br.reactjs.org/), [Typescript](https://www.typescriptlang.org/), [CSS Modules](https://github.com/css-modules/css-modules), [Next JS](https://nextjs.org/), [Axios](https://github.com/axios/axios).
 
-# :bug: Issues
 
-Feel free to **file a new issue** with a respective title and description on the [Shake Dev](https://github.com/jennifertakagi/shakedev/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/jennifertakagi/shakedev/blob/master/CONTRIBUTING.md) to find out about the coding standards.
+<!-- CONTRIBUTING -->
+## Contributing
 
-# :tada: Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Check out the [contributing](https://github.com/jennifertakagi/shakedev/blob/master/CONTRIBUTING.md) page to see the best places to file issues, start discussions and begin contributing.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-# :closed_book: License
 
-Released in 2021.
-This project is under the [MIT license](https://github.com/jennifertakagi/shakedev/master/LICENSE).
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Jennifer Takagi - [@jennitakagi](https://twitter.com/jennitakagi)
+
+[Check out the demo project](https://shakedev.vercel.app/)
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [ESLint](https://eslint.org/)
+* [Prettier](https://prettier.io/)
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/jennifertakagi/shakedev.svg?style=for-the-badge
+[contributors-url]: https://github.com/jennifertakagi/shakedev/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jennifertakagi/shakedev.svg?style=for-the-badge
+[forks-url]: https://github.com/jennifertakagi/shakedev/network/members
+[stars-shield]: https://img.shields.io/github/stars/jennifertakagi/shakedev.svg?style=for-the-badge
+[stars-url]: https://github.com/jennifertakagi/shakedev/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jennifertakagi/shakedev.svg?style=for-the-badge
+[issues-url]: https://github.com/jennifertakagi/shakedev/issues
+[license-shield]: https://img.shields.io/github/license/jennifertakagi/shakedev.svg?style=for-the-badge
+[license-url]: https://github.com/jennifertakagi/shakedev/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/jennifertakagi
+[product-screenshot]: docs/screenshot.png
+
